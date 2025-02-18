@@ -1,0 +1,43 @@
+.abus {
+    margin: 1.5rem 10rem;
+  }
+  
+  .abus h1 {
+    font-size: 3rem;
+    padding: 1rem;
+    font: bold;
+  }
+  
+  .first-head {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 1rem;
+  }
+  
+  .head-text {
+    width: 60%;
+    text-align: start;
+    font-size: 1.3rem;
+    margin-top: 0.5rem;
+  }
+  
+  .head-text h2 {
+    margin-left: -4rem;
+    padding: 5rem;
+    display: flex;
+  }
+  
+  .image {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap:7rem;
+    z-index: -99;
+  }
+  .head-text p {
+    padding-left: 2rem;
+    padding-right: 2rem;
+     
+  }
+  

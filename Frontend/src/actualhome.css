@@ -1,0 +1,85 @@
+.homeContainer{
+  display: grid;
+  grid-template-areas:
+    "a b c"
+    "d e f"
+    "g h i";
+  grid-gap: 10px;
+    
+}
+
+
+.Container {
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .Text {
+    display: flex;
+    align-items: left;
+  }
+  .grid-item{
+    max-block-size: 30%;
+    padding:10px 20px;
+    
+
+
+
+  }
+  .images{
+    border-radius: 25px;
+  }
+  
+
+  
+  .button {
+    position: absolute;
+    top: 150px;
+    left: 20px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #674065;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /* background-image: url('https://m.media-amazon.com/images/I/511HBJEgmrL.jpg'); */
+  }
+  
+  .button1 {
+    position: absolute;
+    top: 150px;
+    left: 210px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #674065;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .button2 {
+    position: absolute;
+    top: 150px;
+    left: 370px;
+    font-size: 1.5em;
+    padding: 10px 20px;
+    background-color: #674065;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  p {
+    margin-top: 0;
+    font-family: ui-rounded;
+    margin-bottom: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+    font-size: larger;
+}

@@ -1,0 +1,17 @@
+Body {
+    width: 100%;
+    height: 100vh;
+    background: C;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+  }
+  
+  .game {
+    width: 100%;
+    height: 100vh;
+    background: #F7DEEA;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

@@ -1,0 +1,89 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    /* background-image: url("https://t3.ftcdn.net/jpg/02/92/61/16/240_F_292611643_LWdjR1sNPqdvdeWanVohMSaqCN9ej1Ou.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: #F7DEEA;
+    /* background-color: rgb(247, 222, 234); */
+  }
+  
+  .container {
+    width: 40%;
+    margin: 100px 0 0 100px; /* Added top margin to lower the table */
+    display: table;
+    background-color: #f8d5e6;
+    border-spacing: 0;
+    align-items: center; /* Centers the table horizontally */
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .column {
+    display: table-cell;
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    text-align: center;
+  }
+  
+  .Button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #b080b1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .Button:hover {
+    background-color: #674065;
+  }
+  /* ... Previous CSS code remains the same ... */
+  
+  .file-upload {
+    text-align: center;
+  }
+  
+  .file-label {
+    display: inline-block;
+    padding: 10px 25px; /* Adjusted button padding to match */
+    border: none;
+    float: left;
+    border-radius: 5px;
+    background-color: #b080b1;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .file-label:hover {
+    background-color: #674065;
+  }
+  
+  #file-input {
+    display: none;
+  }
+  
+  .no-file-text {
+    /* float: right; */
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: left;
+  }
+  

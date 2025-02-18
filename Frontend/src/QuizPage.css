@@ -1,0 +1,58 @@
+/* QuizPage.css */
+
+/* Styles for the main container */
+.quiz-container {
+    width: 200%;
+    /* margin: auto; */
+    margin: 100px 0 0 0;
+    padding: 20px;
+    /* background-color: rgb(247, 222, 234); */
+    border-radius: 8px;
+    box-shadow: 0 0 0px rgba(212, 201, 201, 0.733);
+  
+    /* background-image: url("https://t3.ftcdn.net/jpg/02/92/61/16/240_F_292611643_LWdjR1sNPqdvdeWanVohMSaqCN9ej1Ou.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .text {
+    font-size: larger;
+  }
+  
+   body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(247, 222, 234);
+   /*background-image: url("https://t3.ftcdn.net/jpg/02/92/61/16/240_F_292611643_LWdjR1sNPqdvdeWanVohMSaqCN9ej1Ou.jpg"); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Adjust additional background properties as needed */
+   } 
+  
+  
+  /* Styles for the question container */
+  .question-container {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for buttons */
+  button {
+    padding: 8px 16px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* background-image: url("https://t3.ftcdn.net/jpg/02/92/61/16/240_F_292611643_LWdjR1sNPqdvdeWanVohMSaqCN9ej1Ou.jpg"); */
+    background-color: #b080b1;
+    color: white;
+  }
+  
+  button:hover {
+    background-color: #674065;
+  }
+  
+  /* Styles for result container */
+  .result-container {
+    text-align: left;
+    margin-top: 20px;
+  }
+  

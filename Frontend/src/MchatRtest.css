@@ -1,0 +1,37 @@
+.tag {
+    text-align: center;
+    color: green;
+    margin: 2rem;
+}
+ 
+/* for the jigsaw puzzle container */
+.jigsaw-puzzle {
+    width: 38%;
+    height: 38%;
+    border: 2px solid black;
+    margin: auto;
+    box-shadow: 0 5px 10px 2px rgba(0, 0, 0, 0.25);
+}
+/* Add this style to your MchatRtest.css file or create a new CSS file */
+
+.buttons-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .buttons-container button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4caf50; /* Green background color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttons-container button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
